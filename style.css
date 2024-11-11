@@ -1,0 +1,290 @@
+html, body {
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.first{
+    background-color:black;
+    height: 218px;
+  width: 100%;
+  
+}
+body{
+    margin: 0;
+}
+.kopikotext{
+    position: relative;
+    top: 44px;
+    text-align: center;
+    margin-left: 605px;
+    text-decoration: none;
+    margin-top: 20%;
+    font-size: 45px;
+    font-family:serif;
+    letter-spacing: 4.5px;
+  color: rgb(185, 184, 184);
+}
+.kopikotext:hover{
+    color: #db4f3d;
+    transition: 0.4s;
+
+}
+.subtext{
+    color: #b7b7b7;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    top: 34px;
+    font-size: 13px;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-family:"Open Sans", sans-serif ;
+}
+.line{
+    height: 1px;
+    width: 90%;
+    margin-left: 75px;
+    background: rgb(50, 50, 50);
+    position: relative;
+    top: 65px;
+transform: scaleY(0.5);
+
+}
+.items{
+    position: relative;
+}
+.items a:hover{
+ color: #db4f3d;
+ transition: 0.3s;
+}
+.content-container{
+
+    color: white;
+    height: 65px;
+    background-color: red;
+    position: relative;
+    top: 60px;
+}
+.line-container{
+    color: white;
+    position: relative;
+    top: 103px;
+
+}
+.line-content{
+    position: relative;
+    bottom: 17px;
+    left: 440px;
+  
+}
+
+.home{
+    text-decoration: none;
+    color:  #db4f3d;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+.home::before{
+        content: ""; 
+        position: absolute;
+        top: -22px;
+        left: 0;
+        width: 43px; 
+        height: 1px;
+        background-color: #a73c2e; 
+    
+}
+.collections{
+    margin-left: 31px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #ffff;
+}
+
+.arrow-down{
+color: #ffff;
+font-family: monospace;
+position: relative;
+bottom: 3px;
+margin-left: 2px;
+}
+.collections:hover, .collections:hover + .arrow-down {
+    color: #db4f3d;
+    transition: 0.3s;
+}
+.shop{
+    color: #fff;
+    margin-left:31px;
+    font-family: "Open Sans", sans-serif;
+font-size: 14px;
+
+
+}
+.news-updates{
+    color: #fff;
+    margin-left:31px;
+    font-family: "Open Sans", sans-serif;
+font-size: 14px;
+
+}
+.about-us{
+    color: #fff;
+    margin-left:31px;
+    font-family: "Open Sans", sans-serif;
+font-size: 14px;
+}
+.contact-us{
+    color: #fff;
+    margin-left:31px;
+    font-family: "Open Sans", sans-serif;
+font-size: 14px;
+}
+.tea-image-div{
+    height: 864px;
+    
+}
+.tea-img{
+    height: 864px;
+}
+.kopiko-info{
+    height: 1000px;
+    width: 100%;
+    background-color: black;
+}
+.kop-info-det{
+    color: #7A7A7A;
+    height: 190px;
+    /* background-color: #fff; */
+    width: 80%;
+    margin-left: 156px;
+    text-align: center;
+    position: relative;
+    top: 170px;
+    font-weight: 700;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    line-height: 1.6em;
+    letter-spacing: -1px;
+}
+.seed-img-div{
+    /* background-color: #fff; */
+    position: relative;
+    top: 180px;
+}
+.seed-img{
+    height: 496px;
+    position: relative;
+    left: 328px;
+}
+.logo-container{
+    height: 430px;
+    background-color: black;
+
+}
+.black-space1{
+    /* background-color: #fff; */
+    height: 120px;
+   
+}
+.logo-list-div{
+   width: 30px;
+   height: 30px;
+   background-color: #fff;
+}
+.logo-list{
+    /* background-color: #fff; */
+    height: 100px;
+    display: flex;
+}
+.fb-circle{
+    width: 30px;
+    height: 30px;
+    background-color: #3b5998;
+    border-radius: 50%;
+    position: relative;
+    left: 516px;
+    top: -10px;
+}
+.fb-logo{
+    position: relative;
+    left: 491px;
+    top: -9px;
+    color: #fff;
+}
+.ig-circle{
+    width: 30px;
+    height: 30px;
+    background-color:#262626;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 82px;
+    left: 516px;
+    top: -10px;
+}
+.ig-logo{
+    position: relative;
+    left: 490px;
+    top: -9px;
+    
+    color: #fff;
+}
+.lin-circle{
+    width: 30px;
+    height: 30px;
+    background-color:#0077b5;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 82px;
+    left: 516px;
+    top: -10px;
+}
+.lin-logo{
+    position: relative;
+    left: 491px;
+    top: -9px;
+    
+    color: #fff;
+}
+.yt-circle{
+    width: 30px;
+    height: 30px;
+    background-color:#cd201f;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 82px;
+    left: 516px;
+    top: -10px;
+}
+.yt-logo{
+    position: relative;
+    left: 489.5px;
+    top: -9px;
+    color: #fff;
+}
+.bi-youtube{
+    height: 30px;
+    width: 23px;
+}
+.footer{
+    background-color: black;
+    color: #999;
+    position: relative;
+    top: 118px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    height: 50px;
+    font-size: 13.3px;
+}
+.footer-link{
+    color: white;
+}
+.footer-link:hover{
+    text-decoration: underline;
+    color: #db4f3d;
+    transition: 0.5s;
+}
+
+
